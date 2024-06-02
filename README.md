@@ -1,4 +1,3 @@
-markdown
 
 # Node.js Keylogger
 
@@ -15,7 +14,7 @@ To install the keylogger, use npm:
 ```sh
 npm install node-keylogger
 
-Usage
+##Usage
 
 javascript
 
