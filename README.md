@@ -1,4 +1,4 @@
-
+markdown
 # Node.js Keylogger
 
 A simple Node.js keylogger for Linux using event emitters.
@@ -14,7 +14,7 @@ To install the keylogger, use npm:
 ```sh
 npm install node-keylogger
 
-##Usage
+Usage
 
 javascript
 
@@ -30,6 +30,8 @@ k.on('keypress', console.log);
 
 // Error handling
 k.on('error', console.error);
+
+
 
 Events
 
@@ -49,18 +51,7 @@ Each event object contains:
     type: Event type (keyup, keydown, keypress).
     dev: Device name.
 
-Example
 
-javascript
-
-{
-  timeS: 1347572085,
-  timeMS: 741381,
-  keyCode: 17,
-  keyId: 'KEY_W',
-  type: 'keypress',
-  dev: 'event2'
-}
 
 Development
 TODO
